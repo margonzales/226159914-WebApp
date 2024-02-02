@@ -3,40 +3,67 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>HTML Exercise 3</title>
+    <link rel="stylesheet" href="">
 </head>
+<link rel="stylesheet" href="">
     <style>
-        ul.navigation {
+        nav {
+            background-color: #c8102e;
+            padding: 10px;
+        }
+
+        ul {
             list-style-type: none;
             margin: 0;
             padding: 0;
             overflow: hidden;
-            background-color: beige;
+            background-color: #c8102e;
         }
 
-        ul.navigation li {
+        li {
             float: left;
+            margin-right: 10px;
         }
 
-        ul.navigation li a {
+        a {
             display: block;
-            color: black;
+            color: white;
             text-align: center;
-            padding: 14x 16x;
             text-decoration: none;
         }
 
-        ul.navigation li a:hover {
-            background-color: blanchedalmond;
+        a:hover {
+            background-color: aliceblue;
+            color: #c8102e;
         }
     </style>
 <body>
-    <ul class="navigation">
-        <li><a href=""></a></li>
-        <li></li>
-        <li></li>
-        <li></li>
-    </ul>
+    <nav>
+        <ul>
+            <li><a href="">Home</a></li>
+            <li><a href="">About Us</a></li>
+            <li><a href="">Contact Us</a></li>
+        </ul>
+    </nav>
+
+    <h1 id="img"><img src="https://www.hashcorner.com/wp-content/uploads/2020/04/fukuoka-EN-1024x626.jpg" 
+        alt="Nanzoin, Fukuoka Japan"
+        width="700"
+        height="400"
+        >
+    </h1>
+    <p id="top"><a href="...">Back to Top</a></p>
+    <p id="top"><abbr title="Fukuoka Fusion"><cite>FT</cite></a></p>
     
+    <script>
+        function greetUser() {
+            var name = prompt("What is your name?");
+            if(name) {
+                alert("Hello, " + name + "! Join us in Unvailing Fukuoka's Hidden Chrams!");
+            }
+        }
+        greetUser();
+    </script>
 </body>
 </html>
