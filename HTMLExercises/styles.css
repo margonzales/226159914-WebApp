@@ -1,0 +1,36 @@
+body {
+    font-family: 'Courier New', Courier, monospace;
+    line-height: 1.5;
+    background-color: #a04857;
+    margin: 1.6;
+}
+
+nav {
+    background-color: #c8102e;
+    padding: 10px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #c8102e;
+}
+
+li {
+    float: left;
+    margin-right: 10px;
+}
+
+a {
+    display: block;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+}
+
+a:hover {
+    background-color: aliceblue;
+    color: #a04857;
+}
